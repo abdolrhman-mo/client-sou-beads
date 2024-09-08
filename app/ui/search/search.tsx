@@ -67,11 +67,7 @@ export default function Search({
           }}
           placeholder={placeholder}
           defaultValue={searchParams.get('query')?.toString()}
-          />
-        <XMarkIcon
-          className='h-6 col-span-1 cursor-pointer'
-          onClick={() => dispatch(toggleSearchBar())}
-          />
+        />
       </div>
     </Suspense>
   );
