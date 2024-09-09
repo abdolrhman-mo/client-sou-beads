@@ -4,3 +4,7 @@ TODO:
 - logo(nav, footer)
 - links(nav, footer)
 - product gallery layout nd categories
+
+
+Deployment Errors:
+- checkout-nav.tsx
