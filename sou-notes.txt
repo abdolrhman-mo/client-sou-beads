@@ -8,3 +8,5 @@ TODO:
 
 Deployment Errors:
 - checkout-nav.tsx
+- nav-search-results.tsx
+- downloaded my fonts localy

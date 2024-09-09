@@ -1,13 +1,69 @@
-import { Inter } from 'next/font/google'
-import { Lusitana } from 'next/font/google'
-import { Poppins } from 'next/font/google'
+import localFont from 'next/font/local'
 
-export const inter = Inter({ subsets: ['latin'] })
-export const lusitana = Lusitana({ 
-    subsets: ['latin'], 
-    weight: ['400', '700']
+export const inter = localFont({
+  src: [
+    {
+      path: '@/public/fonts/Inter/Inter_18pt-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '@/public/fonts/Inter/Inter_18pt-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-inter',
 })
-export const poppins = Poppins({
-    subsets: ['latin'],
-    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+
+export const lusitana = localFont({
+  src: [
+    {
+      path: '@/public/fonts/Lusitana/Lusitana-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '@/public/fonts/Lusitana/Lusitana-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-lusitana',
+})
+
+export const poppins = localFont({
+  src: [
+    {
+      path: '@/public/fonts/Poppins/Poppins-Thin.ttf',
+      weight: '100',
+      style: 'normal',
+    },
+    {
+      path: '@/public/fonts/Poppins/Poppins-Light.ttf',
+      weight: '200',
+      style: 'normal',
+    },
+    {
+      path: '@/public/fonts/Poppins/Poppins-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '@/public/fonts/Poppins/Poppins-SemiBold.ttf',
+      weight: '600',
+      style: 'normal',
+    },
+    {
+      path: '@/public/fonts/Poppins/Poppins-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '@/public/fonts/Poppins/Poppins-Black.ttf',
+      weight: '900',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-poppins',
 })
