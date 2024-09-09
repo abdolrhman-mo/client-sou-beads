@@ -1,5 +1,4 @@
-import { OrderItemType, OrderResponse, OrderType } from "@/app/lib/types/orderTypes"
-import Image from "next/image"
+import { OrderResponse } from "@/app/lib/types/orderTypes"
 import UserOrderItemsList from "./order-items/user-order-items-list"
 
 export default function UserOrder({

@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react"
+import { CartItemType } from "@/app/lib/types/cartTypes"
 import ProductCard from "./product-card"
-import { CartItemType } from "@/app/lib/types/types"
 
 export default function ProductsList({
     cartItems,

@@ -9,8 +9,10 @@ export default function Footer() {
     const [isAuth, setIsAuth] = useState<boolean>(false)
 
     useEffect(() => {
-      if (localStorage.getItem('authToken')) {
-        setIsAuth(true)
+      if (typeof window !== 'undefined') {
+        if (localStorage.getItem('authToken')) {
+          setIsAuth(true)
+        }
       }
     })
 

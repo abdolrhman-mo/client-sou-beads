@@ -12,14 +12,16 @@ export default function SideBar() {
     const [nestedPathname, setNestedPathname] = useState('')
 
     useEffect(() => {
+      if (typeof window !== 'undefined') {
         const locaPathname = localStorage.getItem('pathname')
         const localNestedPathname = localStorage.getItem('nestedPathname')
         if (locaPathname) {
-            setPathname(locaPathname || '')
+          setPathname(locaPathname || '')
         }
         if (localNestedPathname) {
-            setNestedPathname(localNestedPathname || '')
+          setNestedPathname(localNestedPathname || '')
         }
+      }
     }, [])
 
     return (

@@ -3,12 +3,12 @@ import localFont from 'next/font/local'
 export const inter = localFont({
   src: [
     {
-      path: '@/public/fonts/Inter/Inter_18pt-Regular.ttf',
+      path: '../../public/fonts/Inter/static/Inter_18pt-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '@/public/fonts/Inter/Inter_18pt-Bold.ttf',
+      path: '../../public/fonts/Inter/static/Inter_18pt-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
@@ -19,12 +19,12 @@ export const inter = localFont({
 export const lusitana = localFont({
   src: [
     {
-      path: '@/public/fonts/Lusitana/Lusitana-Regular.ttf',
+      path: '../../public/fonts/Lusitana/Lusitana-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '@/public/fonts/Lusitana/Lusitana-Bold.ttf',
+      path: '../../public/fonts/Lusitana/Lusitana-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
@@ -35,32 +35,32 @@ export const lusitana = localFont({
 export const poppins = localFont({
   src: [
     {
-      path: '@/public/fonts/Poppins/Poppins-Thin.ttf',
+      path: '../../public/fonts/Poppins/Poppins-Thin.ttf',
       weight: '100',
       style: 'normal',
     },
     {
-      path: '@/public/fonts/Poppins/Poppins-Light.ttf',
+      path: '../../public/fonts/Poppins/Poppins-Light.ttf',
       weight: '200',
       style: 'normal',
     },
     {
-      path: '@/public/fonts/Poppins/Poppins-Regular.ttf',
+      path: '../../public/fonts/Poppins/Poppins-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '@/public/fonts/Poppins/Poppins-SemiBold.ttf',
+      path: '../../public/fonts/Poppins/Poppins-SemiBold.ttf',
       weight: '600',
       style: 'normal',
     },
     {
-      path: '@/public/fonts/Poppins/Poppins-Bold.ttf',
+      path: '../../public/fonts/Poppins/Poppins-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '@/public/fonts/Poppins/Poppins-Black.ttf',
+      path: '../../public/fonts/Poppins/Poppins-Black.ttf',
       weight: '900',
       style: 'normal',
     },
