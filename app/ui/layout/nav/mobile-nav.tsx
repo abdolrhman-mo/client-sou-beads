@@ -5,7 +5,6 @@ import MobileNavItem from "@/app/ui/layout/nav/mobile-nav-item"
 import { useSelector } from "react-redux"
 import { selectMobileNav } from "@/redux/features/nav/mobileNavSlice"
 import { ROUTES } from "@/app/lib/constants/routes"
-import { MAIN_COLOR } from "@/app/lib/constants/appConfig"
 
 export default function({
     loggedIn,
@@ -46,7 +45,8 @@ export default function({
                 'space-y-4 py-12',
                 // Typography
                 'text-2xl',
-            ) + ` bg-${MAIN_COLOR}`}
+                'bg-mainColor',
+            )}
         >
             <div className={clsx(
                     // Layout & Sizing

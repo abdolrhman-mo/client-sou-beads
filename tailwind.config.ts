@@ -1,5 +1,4 @@
-import { transform } from 'next/dist/build/swc';
-import type { Config } from 'tailwindcss';
+import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
@@ -18,6 +17,7 @@ const config: Config = {
           500: '#0070F3',
           600: '#2F6FEB',
         },
+        mainColor: '#F7EAE8'
       },
     },
     keyframes: {
@@ -31,5 +31,5 @@ const config: Config = {
     },
   },
   plugins: [require('@tailwindcss/forms')],
-};
-export default config;
+}
+export default config
