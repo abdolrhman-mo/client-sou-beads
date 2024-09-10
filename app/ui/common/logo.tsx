@@ -17,8 +17,8 @@ export default function Logo({
           <Image
             src={'/logo.png'}
             alt={APP_NAME}
-            width={100}
-            height={100}
+            width={75}
+            height={75}
           />
         </Link>
     )
